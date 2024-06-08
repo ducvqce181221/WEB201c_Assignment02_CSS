@@ -262,7 +262,6 @@ main {
 
 #table-cover table {
     width: 100%;
-    border-collapse: collapse;
 }
 
 #table-cover th {
@@ -286,6 +285,7 @@ main {
 
 #table-cover table {
     border-bottom: 3px solid;
+    border-collapse: collapse;
 }
 
 /* 2.4 Skills */
