@@ -217,7 +217,7 @@ main {
 .exp-left {
     width: 20%;
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .exp-left .address {
@@ -231,7 +231,7 @@ main {
 }
 
 .exp-right h4 {
-    font-weight: bold;
+    font-weight: 500;
     padding-bottom: 8px;
 }
 
@@ -262,6 +262,7 @@ main {
 
 #table-cover table {
     width: 100%;
+    border-collapse: collapse;
 }
 
 #table-cover th {
@@ -276,14 +277,11 @@ main {
 
 #table-cover td {
     padding-left: 5px;
-}
-
-#table-cover td {
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 }
 
 .row1 {
-    padding-top: 5px;
+    padding-top: 7px;
 }
 
 #table-cover table {
