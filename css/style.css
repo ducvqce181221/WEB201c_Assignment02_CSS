@@ -308,12 +308,21 @@ main {
 .skill-cover {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 10px;
+    row-gap: 15px;
     justify-content: space-between;
 }
 
-.skill-cover progress {
-    width: 100%;
+.progress {
+    background-color: black;
+    border-radius: 14px;
+    height: 9px;
+    margin-top: 3px;
+}
+
+.progress-bar {
+    background-color: #3498db;
+    border-radius: 14px;
+    height: 100%;
 }
 
 /* 2.5 Hoppy */
@@ -467,7 +476,7 @@ label:hover {
     color: white;
 }
 
-#send-mes button span:last-of-type {
+#send-mes button span:nth-of-type(2) {
     color: white;
     font-size: 18px;
     padding-top: 14px;
