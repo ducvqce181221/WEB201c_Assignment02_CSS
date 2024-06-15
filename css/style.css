@@ -5,6 +5,10 @@
     --highlight-color: #c12030;
 }
 
+html {
+    scroll-padding-top: 70px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +34,8 @@ header {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 30px;
+    top: 0;
+    position: sticky;
 }
 
 header a {
